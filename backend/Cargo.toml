@@ -1,0 +1,16 @@
+[package]
+name = "ocean"
+version = "0.0.1"
+authors = ["Thanasis Gkliatis | Panos Bletsos"]
+license = "MIT/Apache-2.0"
+description = "Data Governace 1.0"
+homepage = "https://github.com/gthanasis/ocean"
+repository = "https://github.com/gthanasis/ocean"
+readme = "README.md"
+edition = "2021"
+
+[dependencies]
+parking_lot = "0.10.0"
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "0.2", features = ["macros"] }
+warp = "0.2"
